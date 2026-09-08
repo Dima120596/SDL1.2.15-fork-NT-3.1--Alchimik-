@@ -1,0 +1,6 @@
+Memory initialized with A20 gate support
+FPU emulation initialized (80-bit extended precision)
+PIC 8259 + 8042 initialized (standalone, A20 emulated locally)
+DISNEY/COVOX: Sound Source initialized
+DOS Tables: DPB at D001:0000, List of Lists at D003:0000
+EXIT:Closed the SDL Window

@@ -1,0 +1,226 @@
+--------------------Configuration: SDL - Win32 Debug--------------------
+Begining build with project "C:\123\SDL-1.2.15_n\VisualC\SDL\SDL.DSP", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MD /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "_DEBUG" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"Debug/SDL.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo"Debug/Version.res" /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/SDL.bsc" "
+			"COFF Linker for 80x86" with flags "winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/SDL.pdb" /debug /machine:I386 /out:"Debug/SDL.dll" /implib:"Debug/SDL.lib" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x409 /fo"Debug/Version.res" /d "_DEBUG" "C:\123\SDL-1.2.15_n\VisualC\SDL\Version.rc"" 
+Creating temp file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP6A6.tmp" with contents </nologo /MD /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "_DEBUG" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /Fp"Debug/SDL.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\123\SDL-1.2.15_n\src\SDL.c"
+"C:\123\SDL-1.2.15_n\src\events\SDL_active.c"
+"C:\123\SDL-1.2.15_n\src\audio\SDL_audio.c"
+"C:\123\SDL-1.2.15_n\src\audio\SDL_audiocvt.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_blit.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_blit_0.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_blit_1.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_blit_A.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_blit_N.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_bmp.c"
+"C:\123\SDL-1.2.15_n\src\cdrom\SDL_cdrom.c"
+"C:\123\SDL-1.2.15_n\src\cpuinfo\SDL_cpuinfo.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_cursor.c"
+"C:\123\SDL-1.2.15_n\src\audio\windib\SDL_dibaudio.c"
+"C:\123\SDL-1.2.15_n\src\video\windib\SDL_dibevents.c"
+"C:\123\SDL-1.2.15_n\src\video\windib\SDL_dibvideo.c"
+"C:\123\SDL-1.2.15_n\src\audio\disk\SDL_diskaudio.c"
+"C:\123\SDL-1.2.15_n\src\audio\dummy\SDL_dummyaudio.c"
+"C:\123\SDL-1.2.15_n\src\SDL_error.c"
+"C:\123\SDL-1.2.15_n\src\events\SDL_events.c"
+"C:\123\SDL-1.2.15_n\src\events\SDL_expose.c"
+"C:\123\SDL-1.2.15_n\src\SDL_fatal.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_gamma.c"
+"C:\123\SDL-1.2.15_n\src\stdlib\SDL_getenv.c"
+"C:\123\SDL-1.2.15_n\src\stdlib\SDL_iconv.c"
+"C:\123\SDL-1.2.15_n\src\joystick\SDL_joystick.c"
+"C:\123\SDL-1.2.15_n\src\events\SDL_keyboard.c"
+"C:\123\SDL-1.2.15_n\src\stdlib\SDL_malloc.c"
+"C:\123\SDL-1.2.15_n\src\audio\SDL_mixer.c"
+"C:\123\SDL-1.2.15_n\src\audio\SDL_mixer_MMX_VC.c"
+"C:\123\SDL-1.2.15_n\src\joystick\win32\SDL_mmjoystick.c"
+"C:\123\SDL-1.2.15_n\src\events\SDL_mouse.c"
+"C:\123\SDL-1.2.15_n\src\video\dummy\SDL_nullevents.c"
+"C:\123\SDL-1.2.15_n\src\video\dummy\SDL_nullmouse.c"
+"C:\123\SDL-1.2.15_n\src\video\dummy\SDL_nullvideo.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_pixels.c"
+"C:\123\SDL-1.2.15_n\src\stdlib\SDL_qsort.c"
+"C:\123\SDL-1.2.15_n\src\events\SDL_quit.c"
+"C:\123\SDL-1.2.15_n\src\events\SDL_resize.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_RLEaccel.c"
+"C:\123\SDL-1.2.15_n\src\file\SDL_rwops.c"
+"C:\123\SDL-1.2.15_n\src\stdlib\SDL_stdlib.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_stretch.c"
+"C:\123\SDL-1.2.15_n\src\stdlib\SDL_string.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_surface.c"
+"C:\123\SDL-1.2.15_n\src\cdrom\win32\SDL_syscdrom.c"
+"C:\123\SDL-1.2.15_n\src\thread\generic\SDL_syscond.c"
+"C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysevents.c"
+"C:\123\SDL-1.2.15_n\src\loadso\win32\SDL_sysloadso.c"
+"C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysmouse.c"
+"C:\123\SDL-1.2.15_n\src\thread\win32\SDL_sysmutex.c"
+"C:\123\SDL-1.2.15_n\src\thread\win32\SDL_syssem.c"
+"C:\123\SDL-1.2.15_n\src\thread\win32\SDL_systhread.c"
+"C:\123\SDL-1.2.15_n\src\timer\win32\SDL_systimer.c"
+"C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_syswm.c"
+"C:\123\SDL-1.2.15_n\src\thread\SDL_thread.c"
+"C:\123\SDL-1.2.15_n\src\timer\SDL_timer.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_video.c"
+"C:\123\SDL-1.2.15_n\src\audio\SDL_wave.c"
+"C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_wingl.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_yuv.c"
+"C:\123\SDL-1.2.15_n\src\video\SDL_yuv_sw.c"
+>
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP6A6.tmp" 
+Creating temp file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP6A7.tmp" with contents <winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/SDL.pdb" /debug /machine:I386 /out:"Debug/SDL.dll" /implib:"Debug/SDL.lib" /pdbtype:sept 
+".\Debug\SDL.obj"
+".\Debug\SDL_active.obj"
+".\Debug\SDL_audio.obj"
+".\Debug\SDL_audiocvt.obj"
+".\Debug\SDL_blit.obj"
+".\Debug\SDL_blit_0.obj"
+".\Debug\SDL_blit_1.obj"
+".\Debug\SDL_blit_A.obj"
+".\Debug\SDL_blit_N.obj"
+".\Debug\SDL_bmp.obj"
+".\Debug\SDL_cdrom.obj"
+".\Debug\SDL_cpuinfo.obj"
+".\Debug\SDL_cursor.obj"
+".\Debug\SDL_dibaudio.obj"
+".\Debug\SDL_dibevents.obj"
+".\Debug\SDL_dibvideo.obj"
+".\Debug\SDL_diskaudio.obj"
+".\Debug\SDL_dummyaudio.obj"
+".\Debug\SDL_error.obj"
+".\Debug\SDL_events.obj"
+".\Debug\SDL_expose.obj"
+".\Debug\SDL_fatal.obj"
+".\Debug\SDL_gamma.obj"
+".\Debug\SDL_getenv.obj"
+".\Debug\SDL_iconv.obj"
+".\Debug\SDL_joystick.obj"
+".\Debug\SDL_keyboard.obj"
+".\Debug\SDL_malloc.obj"
+".\Debug\SDL_mixer.obj"
+".\Debug\SDL_mixer_MMX_VC.obj"
+".\Debug\SDL_mmjoystick.obj"
+".\Debug\SDL_mouse.obj"
+".\Debug\SDL_nullevents.obj"
+".\Debug\SDL_nullmouse.obj"
+".\Debug\SDL_nullvideo.obj"
+".\Debug\SDL_pixels.obj"
+".\Debug\SDL_qsort.obj"
+".\Debug\SDL_quit.obj"
+".\Debug\SDL_resize.obj"
+".\Debug\SDL_RLEaccel.obj"
+".\Debug\SDL_rwops.obj"
+".\Debug\SDL_stdlib.obj"
+".\Debug\SDL_stretch.obj"
+".\Debug\SDL_string.obj"
+".\Debug\SDL_surface.obj"
+".\Debug\SDL_syscdrom.obj"
+".\Debug\SDL_syscond.obj"
+".\Debug\SDL_sysevents.obj"
+".\Debug\SDL_sysloadso.obj"
+".\Debug\SDL_sysmouse.obj"
+".\Debug\SDL_sysmutex.obj"
+".\Debug\SDL_syssem.obj"
+".\Debug\SDL_systhread.obj"
+".\Debug\SDL_systimer.obj"
+".\Debug\SDL_syswm.obj"
+".\Debug\SDL_thread.obj"
+".\Debug\SDL_timer.obj"
+".\Debug\SDL_video.obj"
+".\Debug\SDL_wave.obj"
+".\Debug\SDL_wingl.obj"
+".\Debug\SDL_yuv.obj"
+".\Debug\SDL_yuv_sw.obj"
+".\Debug\Version.res">
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP6A7.tmp" 
+Compiling resources...
+Compiling...
+SDL.c
+SDL_active.c
+SDL_audio.c
+SDL_audiocvt.c
+SDL_blit.c
+SDL_blit_0.c
+SDL_blit_1.c
+SDL_blit_A.c
+SDL_blit_N.c
+SDL_bmp.c
+SDL_cdrom.c
+SDL_cpuinfo.c
+SDL_cursor.c
+SDL_dibaudio.c
+SDL_dibevents.c
+SDL_dibvideo.c
+SDL_diskaudio.c
+SDL_dummyaudio.c
+SDL_error.c
+SDL_events.c
+SDL_expose.c
+SDL_fatal.c
+SDL_gamma.c
+SDL_getenv.c
+SDL_iconv.c
+SDL_joystick.c
+SDL_keyboard.c
+SDL_malloc.c
+SDL_mixer.c
+SDL_mixer_MMX_VC.c
+SDL_mmjoystick.c
+SDL_mouse.c
+SDL_nullevents.c
+SDL_nullmouse.c
+SDL_nullvideo.c
+SDL_pixels.c
+SDL_qsort.c
+SDL_quit.c
+SDL_resize.c
+SDL_RLEaccel.c
+SDL_rwops.c
+SDL_stdlib.c
+SDL_stretch.c
+SDL_string.c
+SDL_surface.c
+SDL_syscdrom.c
+SDL_syscond.c
+SDL_sysevents.c
+C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysevents.c(122) : warning C4047: 'return' : 'int ' differs in levels of indirection from 'void *'
+C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysevents.c(173) : warning C4090: 'function' : different 'const' qualifiers
+C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysevents.c(173) : warning C4024: 'ToAscii' : different types for formal and actual parameter 3
+C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysevents.c(980) : warning C4022: 'ToAsciiEx_NT31' : pointer mismatch for actual parameter 6
+C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysevents.c(532) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\123\SDL-1.2.15_n\src\video\wincommon\SDL_sysevents.c(532) : warning C4761: integral size mismatch in argument; conversion supplied
+SDL_sysloadso.c
+SDL_sysmouse.c
+SDL_sysmutex.c
+SDL_syssem.c
+C:\123\SDL-1.2.15_n\src\thread\win32\SDL_syssem.c(108) : warning C4090: 'function' : different 'volatile' qualifiers
+C:\123\SDL-1.2.15_n\src\thread\win32\SDL_syssem.c(108) : warning C4024: 'InterlockedDecrement' : different types for formal and actual parameter 1
+C:\123\SDL-1.2.15_n\src\thread\win32\SDL_syssem.c(153) : warning C4090: 'function' : different 'volatile' qualifiers
+C:\123\SDL-1.2.15_n\src\thread\win32\SDL_syssem.c(153) : warning C4024: 'InterlockedIncrement' : different types for formal and actual parameter 1
+C:\123\SDL-1.2.15_n\src\thread\win32\SDL_syssem.c(159) : warning C4090: 'function' : different 'volatile' qualifiers
+C:\123\SDL-1.2.15_n\src\thread\win32\SDL_syssem.c(159) : warning C4024: 'InterlockedDecrement' : different types for formal and actual parameter 1
+SDL_systhread.c
+SDL_systimer.c
+SDL_syswm.c
+SDL_thread.c
+SDL_timer.c
+SDL_video.c
+SDL_wave.c
+SDL_wingl.c
+SDL_yuv.c
+SDL_yuv_sw.c
+Linking...
+   Creating library Debug/SDL.lib and object Debug/SDL.exp
+
+
+
+SDL.dll - 0 error(s), 12 warning(s)

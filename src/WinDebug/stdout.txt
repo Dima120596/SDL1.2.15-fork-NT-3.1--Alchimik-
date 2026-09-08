@@ -1,0 +1,5 @@
+Memory initialized with A20 gate support
+FPU emulation initialized (80-bit extended precision)
+PIC 8259 + 8042 initialized (standalone, A20 emulated locally)
+EXIT:Closed the SDL Window
+Press ENTER to stop
